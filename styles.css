@@ -1,0 +1,43 @@
+* ,*>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: cadetblue;
+    padding-block: 2rem;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    margin-inline: auto;
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+img {
+    /* width: 100%; */
+}
+.card__title, .card__text {
+    padding: .5rem;
+
+}
+.card__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+.card__text {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #7e7e7e;
+}
